@@ -18,6 +18,10 @@ int main(){
 	cout<<"Please input the number of factorial:";
 	int a;
 	cin>>a;
+	if(a < 0){
+	cout<<"The number is error!"<<endl;
+	}
+	else
 	cout<<"The result of"<<a<<"'s factorial is:"<<factorial(a)<<endl;
 	return 0;
 }
